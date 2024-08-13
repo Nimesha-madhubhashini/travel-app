@@ -1,0 +1,124 @@
+body {
+  background-image: url("../assets/fAwVCh3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  
+}
+
+.main-container {
+  padding: 40px 50px;
+  font-family: "Roboto", system-ui;
+  font-weight: 500;
+  font-style: normal;
+  margin-bottom: 12px;
+  
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.logo {
+  color:lightblue;
+  font-size: 35px;
+  cursor: pointer;
+ 
+ width: 500px;
+}
+.text {
+  font-size: 60px;
+}
+
+.btn {
+  background-color: cornflowerblue;
+  background-color: red;
+  font-size: 20px;
+  margin-right: 20px;
+  padding: 10px 10px;
+  font-weight: 600;
+  border-radius: 10px;
+  border-color: azure;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.btn:hover {
+  background: palevioletred;
+}
+
+.btn span {
+  width: 5px;
+  height: 5px;
+}
+
+nav ul {
+  list-style: none;
+  text-align: right;
+  width: 100%;
+  font-size: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px 10px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.list:hover {
+  padding: 5px 5px;
+  background-color:lightblue;
+  margin: 0%;
+  border-radius: 10px;
+}
+
+.content {
+  width: 550px;
+  height:fit-content;
+  margin-top: 100px;
+}
+
+h1 {
+  color: aliceblue;
+  font-size: 60px;
+  margin: 0%;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+ margin: 8px;
+}
+
+.content form {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+margin-top: 40px;
+margin-bottom: 40px;
+  width: 500px;
+  text-align: right;
+ 
+}
+
+.content form input {
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.content form button {
+  margin: 0%;
+  margin-left: auto;
+}
